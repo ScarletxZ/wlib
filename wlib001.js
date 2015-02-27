@@ -1,4 +1,4 @@
-/* wlib001.js, ver. 0.0.2 */
+/* wlib001.js, ver. 0.0.3 */
 window.wlib = (function() {
  function Wlib (elem) {
  for(var i=0;i<elem.length;i++) {
@@ -29,6 +29,17 @@ window.wlib = (function() {
     els = [selector];
    }
    return new Wlib(elem);
+  }
+  mjson: function() {
+   var json = function() {
+    new Object;
+   };
+   var string = function(val) {
+    JSON.stringify(val);
+   };
+   var parse = function(vals) {
+    JSON.parse(vals);
+   };
   }
   };
   
