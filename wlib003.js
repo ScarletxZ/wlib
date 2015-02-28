@@ -7,7 +7,7 @@ window.wlib = (function() {
  this.length = elem.length;
  }
  
- var wlib = { 
+ var _wlib = { 
   cookie: function() {
    var setCookie = function(name,value,expires,path) {
     document.cookie(name,value,expires,path);
@@ -43,6 +43,6 @@ window.wlib = (function() {
   }
   };
   
+ wlib.prototype = _wlib;
 return wlib;
-
 }();
