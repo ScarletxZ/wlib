@@ -43,6 +43,10 @@ window.wlib = (function() {
   }
   };
   
+  arr: function() {
+   var push = function(arr,n) {
+    arr.push(n);
+   }
  wlib.prototype = _wlib;
 return wlib;
 }();
