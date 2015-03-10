@@ -1,4 +1,4 @@
-/* wlib001.js, ver. 0.0.3 */
+/* dump.js, un-needed file */
 window.wlib = (function() {
  function Wlib (elem) {
  for(var i=0;i<elem.length;i++) {
